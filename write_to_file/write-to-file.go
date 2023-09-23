@@ -7,7 +7,7 @@ import (
 )
 
 func CallCalculator() {
-	f, err := os.Create("./write-to-file/result.txt")
+	f, err := os.Create("./write_to_file/result.txt")
 	if err != nil {
 		panic(err)
 	}

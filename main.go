@@ -1,9 +1,8 @@
 package main
 
-import (
-	f "simple-calculator/write-to-file"
-)
+import st "simple-calculator/write_to_stdout"
 
 func main() {
-	f.CallCalculator()
+	//f.CallCalculator()
+	st.CallCalculator2()
 }
